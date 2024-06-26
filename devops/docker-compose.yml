@@ -1,0 +1,14 @@
+services:
+  jupyterlab_placeholder:
+    build:
+      context: ./jupyterlab
+      dockerfile: Dockerfile
+    image: "${IMAGE_NAME}"
+    container_name: "${CONTAINER_NAME}"
+    ports:
+      - "${HOST_PORT}:7777"
+    volumes:
+      - "./../main:/home"
+    labels:
+      - "description=Jupyterlab_for_Chem_Analytics"
+      - "port=7777"
