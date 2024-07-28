@@ -36,7 +36,7 @@ Access the container from remote machine webpage using [own5](https://own5.agani
 
 
 ## Instruction for using Notebooks
-Once you are inside Jupyterlab container, you try out different notebooks, "1_process_data", "2_unidock", "3_check_progress" and "4_extract_data" simultaneously.
+Once you are inside Jupyterlab container, you try out different notebooks. Explanation of each notebooks are given below.
 
 ### ![#00FFFF](https://via.placeholder.com/15/00FFFF/00FFFF.png) Explanation of "1_Box_plot_with_statannotation.ipynb":
 
