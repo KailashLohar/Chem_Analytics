@@ -59,6 +59,8 @@ Once you are inside Jupyterlab container, you try out different notebooks. Expla
 
 ![histogram](main/figures/binding_affinity_of_all.png)
 
+![histogram](main/figures/binding_affinity_within_threshold.png)
+
 
 ### ![#00FFFF](https://via.placeholder.com/15/00FFFF/00FFFF.png) Explanation of "3_stacked_bar_plots.ipynb":
 
