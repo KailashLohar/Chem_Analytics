@@ -2,7 +2,7 @@
 
 This project involves data analysis and visualization of chemical compound data using Python libraries like Pandas, RDKit, Matplotlib, Seaborn, and PIL. It includes Jupyter notebooks for creating box plots, histograms, stacked bar plots, clustering analysis, and image collages. Docker is used for environment setup, ensuring reproducibility. Users can preprocess data, compute molecular fingerprints, apply dimensionality reduction, perform clustering, and visualize results, with all figures saved in the figures directory.
 
-![main](main/figures/drug_image.png)
+![main](main/figures/drug_image.jpg)
 
 ## Project Structure
 
