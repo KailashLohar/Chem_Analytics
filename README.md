@@ -2,7 +2,7 @@
 
 This project involves data analysis and visualization of chemical compound data using Python libraries like Pandas, RDKit, Matplotlib, Seaborn, and PIL. It includes Jupyter notebooks for creating box plots, histograms, stacked bar plots, clustering analysis, and image collages. Docker is used for environment setup, ensuring reproducibility. Users can preprocess data, compute molecular fingerprints, apply dimensionality reduction, perform clustering, and visualize results, with all figures saved in the figures directory.
 
-![main](main/figures/drug_image.jpeg)
+![main](devops/readme_figures/drug_image.jpeg)
 
 ## Project Structure
 
@@ -46,7 +46,7 @@ Once you are inside Jupyterlab container, you try out different notebooks. Expla
 
 3. The code annotates the box plot with statistical test results (Mann-Whitney) to compare pairs of datasets, and saves the final plot as an image file (box_plot.png).
 
-![box_plot](main/figures/box_plot.png)
+![box_plot](devops/readme_figures/bp.png)
 
 
 ### ![#00FFFF](https://via.placeholder.com/15/00FFFF/00FFFF.png) Explanation of "2_histogram.ipynb":
@@ -57,16 +57,13 @@ Once you are inside Jupyterlab container, you try out different notebooks. Expla
 
 3. Another CSV file is read for compounds with binding affinities below a threshold, the data is displayed, and a similar plotting function is used to create and save a histogram for these specific affinities, with highlighted bins.
 
-![histogram](main/figures/binding_affinity_of_all.png)
-
-![histogram](main/figures/binding_affinity_within_threshold.png)
-
+![histogram](devops/readme_figures/fd.png)
 
 ### ![#00FFFF](https://via.placeholder.com/15/00FFFF/00FFFF.png) Explanation of "3_stacked_bar_plots.ipynb":
 
 - The code reads multiple CSV files from a specified directory, concatenates them into a single DataFrame, adds a 'TAG' column based on file names, categorizes the 'Affinity' values into defined ranges, creates a crosstabulation of 'TAG' against 'affinity' categories, and plots a stacked bar chart showing the distribution of affinities across different conformers, saving the plot as an image file.
 
-![stacked_bar](main/figures/stacked_histogram.png)
+![stacked_bar](devops/readme_figures/six.png)
 
 
 ### ![#00FFFF](https://via.placeholder.com/15/00FFFF/00FFFF.png) Explanation of "4_clustering.ipynb":
@@ -79,7 +76,7 @@ Once you are inside Jupyterlab container, you try out different notebooks. Expla
 
 4. It visualizes the clustered PCA, t-SNE and UMAP data simultaneously using scatter plots and KDE (Kernel Density Estimation) plots, highlighting different clusters with distinct colors and alphas, and saves these visualizations as image files.
 
-![clustering](main/figures/top_molecules.png)
+![clustering](devops/readme_figures/clus.png)
 
 ### ![#00FFFF](https://via.placeholder.com/15/00FFFF/00FFFF.png) Explanation of "5_collage_images.ipynb":
 
