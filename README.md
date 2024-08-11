@@ -46,7 +46,7 @@ Once you are inside Jupyterlab container, you try out different notebooks. Expla
 
 3. The code annotates the box plot with statistical test results (Mann-Whitney) to compare pairs of datasets, and saves the final plot as an image file (box_plot.png).
 
-![box_plot](devops/readme_figures/bp.png)
+![box_plot](devops/readme_figures/bp1.png)
 
 
 ### ![#00FFFF](https://via.placeholder.com/15/00FFFF/00FFFF.png) Explanation of "2_histogram.ipynb":
@@ -63,7 +63,7 @@ Once you are inside Jupyterlab container, you try out different notebooks. Expla
 
 - The code reads multiple CSV files from a specified directory, concatenates them into a single DataFrame, adds a 'TAG' column based on file names, categorizes the 'Affinity' values into defined ranges, creates a crosstabulation of 'TAG' against 'affinity' categories, and plots a stacked bar chart showing the distribution of affinities across different conformers, saving the plot as an image file.
 
-![stacked_bar](devops/readme_figures/six.png)
+![stacked_bar](devops/readme_figures/stacked_histogram.png)
 
 
 ### ![#00FFFF](https://via.placeholder.com/15/00FFFF/00FFFF.png) Explanation of "4_clustering.ipynb":
@@ -76,7 +76,7 @@ Once you are inside Jupyterlab container, you try out different notebooks. Expla
 
 4. It visualizes the clustered PCA, t-SNE and UMAP data simultaneously using scatter plots and KDE (Kernel Density Estimation) plots, highlighting different clusters with distinct colors and alphas, and saves these visualizations as image files.
 
-![clustering](devops/readme_figures/clus.png)
+![clustering](devops/readme_figures/clust.png)
 
 ### ![#00FFFF](https://via.placeholder.com/15/00FFFF/00FFFF.png) Explanation of "5_collage_images.ipynb":
 
