@@ -61,7 +61,7 @@ Once you are inside Jupyterlab container, you try out different notebooks. Expla
 
 ### ![#00FFFF](https://via.placeholder.com/15/00FFFF/00FFFF.png) Explanation of "3_stacked_bar_plots.ipynb":
 
-- The code reads multiple CSV files from a specified directory, concatenates them into a single DataFrame, adds a 'TAG' column based on file names, categorizes the 'Affinity' values into defined ranges, creates a crosstabulation of 'TAG' against 'affinity' categories, and plots a stacked bar chart showing the distribution of affinities across different conformers, saving the plot as an image file.
+- The code reads multiple CSV files from a specified directory, concatenates them into a single DataFrame, adds a 'TAG' column based on file names, categorizes 'Affinity' values into defined ranges, creates a crosstabulation of 'TAG' against 'affinity' categories, and plots a stacked bar chart showing the distribution of affinities across different conformers, saving the plot as an image file.
 
 ![stacked_bar](devops/readme_figures/stacked_histogram.png)
 
